@@ -9,6 +9,20 @@
             text-align: center;
         }
     </style>
+
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "f76d18f6-aaf7-4c50-a0bf-c1e6d4b3566a",
+      safari_web_id: "web.onesignal.auto.424123c9-df63-4140-aac8-764c37d1fc19",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </head>
 <body>
     
